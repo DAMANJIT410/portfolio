@@ -1,0 +1,125 @@
+.row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 90%;
+    margin: auto;
+}
+.half {
+    width: 100%;
+}
+body{
+    background: rgb(0, 0, 0);
+    color: white;
+}
+.solid-black {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 20px;
+    margin: 50px 0px;
+}
+header, footer {
+    background: rgb(0 0 0);
+    color: white;
+    margin: 0px;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    padding: 19px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px 22px;
+}
+body {
+    background: rgb(107 143 71);
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+footer {
+    padding: 13px;
+    text-align: center;
+}
+section#Home {
+    height: 70vh;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+section#Home .side-image img {
+    height: 394px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 0px 254px 100px;
+}
+div#About img {
+    height: 400px;
+    object-fit: cover;
+}
+@media only screen and (max-width: 600px) {
+  .half{
+    width:100%;
+    }
+    .row {
+        flex-direction: column;
+    }
+  }
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+div#Contact {
+    max-width: 700px;
+    margin: 50px auto;
+}
+div#About {
+    height: 70vh;
+}
